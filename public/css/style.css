@@ -1,0 +1,15 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,400i,700';
+html, body {
+    font-family: 'Lato', sans-serif;
+}
+
+.fab {
+    position: fixed;
+    z-index: 7;
+    top: calc(100% - 75px);
+    left: calc(100% - 75px);
+    transform-origin: 50%;
+    transform: rotate(90deg);
+    transition: all .5s ease;
+    backface-visibility: hidden;
+}

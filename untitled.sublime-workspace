@@ -1,0 +1,2188 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"app",
+				"app_path('Http"
+			],
+			[
+				"Res",
+				"Response::json	Create a JSON Response"
+			],
+			[
+				"Route",
+				"Route::group	Create a Group of Routes"
+			],
+			[
+				"getL",
+				"getLists	(WorkordersController.php)"
+			],
+			[
+				"User",
+				"Usergroups"
+			],
+			[
+				"new",
+				"newValue"
+			],
+			[
+				"wo",
+				"workorder"
+			],
+			[
+				"select",
+				"select2-list"
+			],
+			[
+				"res",
+				"responsible_person"
+			],
+			[
+				"workcat",
+				"workcategories"
+			],
+			[
+				"workgro",
+				"workgroups"
+			],
+			[
+				"workca",
+				"workcategories"
+			],
+			[
+				"searc",
+				"searchAll"
+			],
+			[
+				"ann",
+				"announcement"
+			],
+			[
+				"add",
+				"addPhoto	(AnnouncementsController.php)"
+			],
+			[
+				"this",
+				"thisDropzone"
+			],
+			[
+				"announ",
+				"announcement"
+			],
+			[
+				"anno",
+				"announcement"
+			],
+			[
+				"ro",
+				"route	blade-route"
+			],
+			[
+				"route",
+				"route"
+			],
+			[
+				"a",
+				"announcements"
+			],
+			[
+				"Ann",
+				"AnnouncementRepository	(AnnouncementRepository.php)"
+			],
+			[
+				"getT",
+				"getThumbnail	(FilesController.php)"
+			],
+			[
+				"planned",
+				"planned_finish_date	(ProjectRepository.php)"
+			],
+			[
+				"ex",
+				"execution	(ProjectsController.php)"
+			],
+			[
+				"init",
+				"initiated	(ProjectRepository.php)"
+			],
+			[
+				"ini",
+				"initiation	(ProjectRepository.php)"
+			],
+			[
+				"pri",
+				"priority	(ProjectRepository.php)"
+			],
+			[
+				"fin",
+				"finished"
+			],
+			[
+				"wor",
+				"workorders"
+			],
+			[
+				"pro",
+				"programme"
+			],
+			[
+				"usergr",
+				"usergroups"
+			],
+			[
+				"contagr",
+				"contactGroup	(ContactGroupsController.php)"
+			],
+			[
+				"contactgro",
+				"contactgroups"
+			],
+			[
+				"contactG",
+				"contactGroup"
+			],
+			[
+				"contactrep",
+				"contactGroupRepo"
+			],
+			[
+				"contact",
+				"contactgroups"
+			],
+			[
+				"delete",
+				"deleted_at	(CompanyUserController.php)"
+			],
+			[
+				"clients",
+				"clients_contact"
+			],
+			[
+				"sele",
+				"select2-list"
+			],
+			[
+				"programme",
+				"programmesLists"
+			],
+			[
+				"inp",
+				"input-sm"
+			],
+			[
+				"se",
+				"select2-list"
+			],
+			[
+				"selec",
+				"select2"
+			],
+			[
+				"commerre",
+				"commercialRepresentative"
+			],
+			[
+				"client",
+				"client_contact	(Workorder.php)"
+			],
+			[
+				"only",
+				"onlyTrashed	(ProgrammeRepository.php)"
+			],
+			[
+				"Materi",
+				"Material-Theme.tmTheme"
+			],
+			[
+				"Code",
+				"CodeGeneratorInterface	(ContactCodeGenerator.php)"
+			],
+			[
+				"class",
+				"class_basename"
+			],
+			[
+				"classs",
+				"class_basename	(CodeGenerator.php)"
+			],
+			[
+				"slec",
+				"select2-lazy-list-1"
+			],
+			[
+				"sub_wor",
+				"sub_workorder_id	(WorkordersController.php)"
+			],
+			[
+				"sub_w",
+				"sub_workorders"
+			],
+			[
+				"inpu",
+				"inputs"
+			],
+			[
+				"php",
+				"php	<?php … ?>"
+			],
+			[
+				"get_clas",
+				"get_class_methods"
+			],
+			[
+				"removeSU",
+				"removeSubWorkorder"
+			],
+			[
+				"removeD",
+				"removeSubWorkorder"
+			],
+			[
+				"sub_workorder",
+				"sub_workorder_id"
+			],
+			[
+				"sub",
+				"subWorkorder"
+			],
+			[
+				"subwo",
+				"subworkorder"
+			],
+			[
+				"attr",
+				"attribute"
+			],
+			[
+				"subwokrd",
+				"subworkorder"
+			],
+			[
+				"su",
+				"subworkorder	(add-sub.blade.php)"
+			],
+			[
+				"sub_wo",
+				"sub_workorder_id	(Subworkorder.php)"
+			],
+			[
+				"fore",
+				"foreign	table-foreign"
+			],
+			[
+				"wokor",
+				"workorder"
+			],
+			[
+				"wokorder",
+				"workorder"
+			],
+			[
+				"subwor",
+				"sub_workorders"
+			],
+			[
+				"lead",
+				"lead_workorder	(editnew.blade.php)"
+			],
+			[
+				"workor",
+				"workorder"
+			],
+			[
+				"depen",
+				"dependency"
+			],
+			[
+				"depe",
+				"dependency	(editnew.blade.php)"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"Sche",
+				"Schema::table-update	Update an existing table"
+			],
+			[
+				"Schemc",
+				"Schema::create-table	Create new table"
+			],
+			[
+				"func",
+				"function_exists"
+			],
+			[
+				"contactGro",
+				"contactGroupData"
+			],
+			[
+				"clien",
+				"client-list	(basic.blade.php)"
+			],
+			[
+				"contct",
+				"contactData	(vue_project.js)"
+			],
+			[
+				"vat",
+				"vat_id"
+			],
+			[
+				"tax",
+				"tax_id	(Contact.php)"
+			],
+			[
+				"DB",
+				"DB::select	Run a select statement against the database."
+			],
+			[
+				"meme",
+				"member_deputy"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"useid",
+				"userId"
+			],
+			[
+				"country",
+				"countrylist"
+			],
+			[
+				"filter",
+				"filterByPhase"
+			],
+			[
+				"sort",
+				"sortBy"
+			],
+			[
+				"crea",
+				"created_at-asc	(index.blade.php)"
+			],
+			[
+				"create",
+				"created_at-desc	(toolbar.blade.php)"
+			],
+			[
+				"created",
+				"created_at-asc	(toolbar.blade.php)"
+			],
+			[
+				"invie",
+				"invited	(index.blade.php)"
+			],
+			[
+				"program",
+				"programmes"
+			],
+			[
+				"terminate",
+				"termination_date	(ProjectRepository.php)"
+			],
+			[
+				"termination",
+				"termination_reason"
+			],
+			[
+				"input",
+				"input"
+			],
+			[
+				"company",
+				"company_id"
+			],
+			[
+				"source",
+				"source_company"
+			],
+			[
+				"sou",
+				"source_company"
+			],
+			[
+				"ter",
+				"termination_reason	(template.blade.php)"
+			],
+			[
+				"bank",
+				"bank_account"
+			],
+			[
+				"subject",
+				"subject_to_vat	(add-new.blade.php)"
+			],
+			[
+				"post",
+				"postal_code	(add-new.blade.php)"
+			],
+			[
+				"cret",
+				"created_at	(index.blade.php)"
+			],
+			[
+				"mil",
+				"milestone"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"close",
+				"closeMenu"
+			],
+			[
+				"menu",
+				"menucontent"
+			],
+			[
+				"format",
+				"format_options	(CodeController.php)"
+			],
+			[
+				"settin",
+				"settings	(SettingsController.php)"
+			],
+			[
+				"code",
+				"codeformat"
+			],
+			[
+				"codege",
+				"codegenerators	(CodeController.php)"
+			],
+			[
+				"data",
+				"data-category"
+			],
+			[
+				"cl",
+				"click	.click()"
+			],
+			[
+				"fomat",
+				"format_options"
+			],
+			[
+				"error",
+				"errorToast"
+			],
+			[
+				"remove",
+				"remove-field"
+			],
+			[
+				"strt",
+				"strtoupper"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"Roue",
+				"Route::resource	Route to a RESTful Controller"
+			],
+			[
+				"pe",
+				"pendingCompanies	(CompanyRepository.php)"
+			],
+			[
+				"owne",
+				"ownedCompanies	(CompanyRepository.php)"
+			],
+			[
+				"joinde",
+				"joinedCompanies	(CompanyRepository.php)"
+			],
+			[
+				"ow",
+				"ownedCompanies	(index.blade.php)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "resources/views/welcome.blade.php",
+			"settings":
+			{
+				"buffer_size": 19133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/control/resources/views/companies/workorders/edittemplate.blade.php",
+			"settings":
+			{
+				"buffer_size": 24019,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/style.css",
+			"settings":
+			{
+				"buffer_size": 487,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"theme",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"duplica",
+				"File: Duplicate"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"prefere",
+				"Preferences: Settings - User"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rmeovepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"dlete",
+				"File: Delete"
+			],
+			[
+				"reanme",
+				"File: Rename"
+			],
+			[
+				"delt",
+				"File: Delete"
+			],
+			[
+				"extrac",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"migrate",
+				"Laravel Artisan 5: Migrate"
+			],
+			[
+				"artisanmake mig",
+				"Laravel Artisan 5: Make:Migration"
+			],
+			[
+				"dle",
+				"File: Delete"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"delte",
+				"File: Delete"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list pac",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"format",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"renae",
+				"Emmet: Rename Tag"
+			],
+			[
+				"forma",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"format html",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"show",
+				"CodeFormatter: Show PHP Transformations"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"HTML",
+				"HTMLPrettify"
+			],
+			[
+				"HMTL",
+				"HTMLPrettify"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"format ht",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"clone",
+				"Origami: Clone File to Pane on the Right"
+			],
+			[
+				"pre",
+				"Preferences: Settings - User"
+			],
+			[
+				"setters",
+				"PHP: Generate Setters"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"",
+				":$ - EOF"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"extract",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"extracn",
+				"Snippet: Extract the file name from a file path."
+			],
+			[
+				"installl",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"bladec",
+				"Snippet: blade-comment"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - User"
+			],
+			[
+				"prefer",
+				"Preferences: Settings - User"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"regreplace",
+				"Preferences: Reg Replace Commands – User"
+			],
+			[
+				"loca",
+				"Local History: Incremental Diff"
+			],
+			[
+				"removepac",
+				"Package Control: Remove Package"
+			],
+			[
+				"ex",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"moveta",
+				"Move Tab: To the left"
+			],
+			[
+				"model",
+				"Laravel Artisan 5: Make:Model"
+			],
+			[
+				"controller",
+				"Laravel Artisan 5: Make:Controller"
+			],
+			[
+				"makecon",
+				"Laravel Artisan 5: Make:Controller"
+			],
+			[
+				"wrao",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"package settings",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"codeformatter:show",
+				"CodeFormatter: Show PHP Transformations"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"toggle tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"extra",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"gutter",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"sta",
+				"View: Toggle Status Bar"
+			],
+			[
+				"ta",
+				"View: Toggle Tabs"
+			],
+			[
+				"blade",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"forat c",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"user ",
+				"Preferences: Settings - User"
+			],
+			[
+				"pac instal",
+				"Package Control: Install Package"
+			],
+			[
+				"formatht",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"formathym",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"error",
+				"Snippet: formerrors"
+			],
+			[
+				"format js",
+				"CodeFormatter: Format as Javascript Syntax"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 190.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/ecommerce"
+	],
+	"file_history":
+	[
+		"/var/www/html/ecommerce/untitled.sublime-project",
+		"/home/dipesh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/html/ecommerce/node_modules/webpack/lib/CaseSensitiveModulesWarning.js",
+		"/etc/hosts",
+		"/etc/apache2/sites-available/larablog.conf",
+		"/var/www/html/control/app/Http/routes.php",
+		"/var/www/html/control/app/Http/Controllers/Api/Companies/CompaniesController.php",
+		"/var/www/html/control/app/Repositories/Eloquent/Companies/CompanyRepository.php",
+		"/var/www/html/control/config/auth.php",
+		"/var/www/html/control/app/Http/Controllers/Api/Auth/AuthController.php",
+		"/var/www/html/control/app/Http/routes.admin.php",
+		"/var/www/html/control/app/Http/Controllers/Api/Companies/ProjectssController.php",
+		"/var/www/html/control/app/Http/Controllers/Api/Companies/WorkordersController.php",
+		"/var/www/html/control/database/migrations/2016_08_22_070216_add_api_token_to_users_table.php",
+		"/var/www/html/control/app/Http/Controllers/Api/Controller.php",
+		"/var/www/html/control/vendor/laravel/framework/src/Illuminate/Foundation/Validation/ValidatesRequests.php",
+		"/var/www/html/control/app/Http/Middleware/Authenticate.php",
+		"/var/www/html/control/vendor/laravel/framework/src/Illuminate/Auth/TokenGuard.php",
+		"/var/www/html/control/app/Http/Controllers/Auth/AuthController.php",
+		"/var/www/html/control/vendor/laravel/framework/src/Illuminate/Http/Request.php",
+		"/var/www/html/control/app/Repositories/Eloquent/Repository.php",
+		"/var/www/html/control/app/Http/Helpers/GeneralHelpers.php",
+		"/var/www/html/control/app/Http/Controllers/Controller.php",
+		"/var/www/html/control/public/.htaccess",
+		"/var/www/html/control/vendor/laravel/framework/src/Illuminate/Support/Traits/Macroable.php",
+		"/var/www/html/control/app/Http/Controllers/Companies/CompaniesController.php",
+		"/var/www/html/control/app/Http/Kernel.php",
+		"/var/www/html/control/app/Console/Kernel.php",
+		"/var/www/html/control/resources/views/companies/workorders/index.blade.php",
+		"/var/www/html/control/app/Http/Controllers/Companies/WorkordersController.php",
+		"/var/www/html/control/app/Models/Companies/Workorder.php",
+		"/var/www/html/control/app/Repositories/Eloquent/Companies/WorkorderRepository.php",
+		"/var/www/html/control/resources/views/companies/workorders/show.blade.php",
+		"/var/www/html/control/public/js/core/source/init.js",
+		"/media/dipesh/Dipesh/Development/Projects/DProject/app/Http/Controllers/Controller.php",
+		"/media/dipesh/Dipesh/Development/Templates/Templates/Important/custom backend/add_category.php",
+		"/var/www/html/control/resources/views/companies/projects/partials/basic.blade.php",
+		"/var/www/html/control/resources/views/companies/projects/edit.blade.php",
+		"/var/www/html/control/public/js/core/source/controlplus.js",
+		"/var/www/html/control/public/js/core/demo/DemoFormComponents.js",
+		"/var/www/html/control/resources/views/layouts/app.blade.php",
+		"/var/www/html/control/resources/views/companies/contacts/contactgroups/add-new.blade.php",
+		"/var/www/html/control/resources/views/companies/contacts/add-new.blade.php",
+		"/var/www/html/control/resources/assets/js/main.js",
+		"/var/www/html/control/gulpfile.js",
+		"/var/www/html/control/resources/assets/js/helpers.js",
+		"/var/www/html/control/public/css/style.css",
+		"/var/www/html/control/resources/views/companies/plans/show.blade.php",
+		"/var/www/html/control/resources/views/companies/users/edit.blade.php",
+		"/var/www/html/control/app/Http/Controllers/Companies/TeamsController.php",
+		"/var/www/html/control/app/Http/Controllers/Companies/CompanyUserController.php",
+		"/var/www/html/control/app/Http/Controllers/Companies/ContactGroupsController.php",
+		"/var/www/html/control/app/Http/Controllers/Companies/ContactsController.php",
+		"/var/www/html/control/node_modules/json-stringify-safe/test/stringify_test.js",
+		"/var/www/html/control/resources/views/companies/contacts/index.blade.php",
+		"/var/www/html/control/resources/views/companies/contacts/contactgroups/index.blade.php",
+		"/var/www/html/control/resources/views/companies/users/index.blade.php",
+		"/var/www/html/control/resources/views/companies/workorders/editnew.blade.php",
+		"/var/www/html/control/resources/views/companies/projects/milestones/index.blade.php",
+		"/var/www/html/control/app/Presenters/MilestonePresenter.php",
+		"/var/www/html/control/resources/views/companies/projects/risks/index.blade.php",
+		"/var/www/html/control/resources/views/companies/projects/contracts/index.blade.php",
+		"/var/www/html/control/app/Http/Controllers/Companies/Projects/TeamsController.php",
+		"/var/www/html/control/resources/views/users/profile.blade.php",
+		"/var/www/html/control/resources/views/companies/teams/show.blade.php",
+		"/var/www/html/control/resources/views/companies/teams/index.blade.php",
+		"/var/www/html/control/app/Presenters/CompanyPresenter.php",
+		"/var/www/html/control/resources/views/companies/users/show.blade.php",
+		"/var/www/html/control/resources/views/companies/partials/basic.blade.php",
+		"/var/www/html/control/app/Http/Utilities/CountryList.php",
+		"/var/www/html/control/resources/views/companies/form.blade.php",
+		"/var/www/html/control/resources/views/companies/workorders/add-sub.blade.php",
+		"/var/www/html/control/resources/assets/js/vue_project.js",
+		"/var/www/html/control/public/js/vue_project.js",
+		"/var/www/html/control/node_modules/acorn/bin/update_authors.sh",
+		"/var/www/html/control/public/css/theme-default/bootstrap.css",
+		"/var/www/html/control/public/css/theme-default/libs/select2/select2.css",
+		"/var/www/html/control/public/css/theme-default/libs/select2/select2-old.css",
+		"/var/www/html/control/config/mail.php",
+		"/var/www/html/control/.env",
+		"/var/www/html/control/app/Traits/Companies/CompanyUser.php",
+		"/var/www/html/control/app/Models/User.php",
+		"/var/www/html/control/app/Models/Companies/Company.php",
+		"/var/www/html/control/app/Traits/Companies/UserCompany.php",
+		"/var/www/html/control/app/Http/Requests/User/UpdateUserRequest.php",
+		"/var/www/html/control/node_modules/node-sass/src/libsass/src/remove_placeholders.hpp",
+		"/var/www/html/control/resources/views/companies/projects/index.blade.php",
+		"/var/www/html/control/app/Http/Controllers/Companies/ProjectsController.php",
+		"/var/www/html/control/app/Repositories/Eloquent/Companies/ProjectRepository.php",
+		"/var/www/html/control/resources/views/companies/announcements/create.blade.php",
+		"/var/www/html/control/resources/views/companies/announcements/index.blade.php",
+		"/var/www/html/control/app/Http/Controllers/Companies/FilesController.php",
+		"/var/www/html/control/app/Http/Controllers/Companies/AnnouncementsController.php",
+		"/var/www/html/control/app/Repositories/Eloquent/AnnouncementRepository.php",
+		"/var/www/html/control/resources/views/companies/announcements/show.blade.php",
+		"/var/www/html/control/app/Models/Companies/File.php",
+		"/var/www/html/control/database/migrations/2016_05_18_050913_create_announcements_table.php",
+		"/var/www/html/control/resources/views/layouts/partials/alerts.blade.php",
+		"/var/www/html/control/database/migrations/2016_08_17_113457_add_file_size_to_files_table.php",
+		"/var/www/html/control/app/Http/Controllers/Companies/Projects/ContractsController.php",
+		"/var/www/html/control/app/Repositories/Eloquent/Companies/ProgrammeRepository.php",
+		"/var/www/html/control/app/Models/Companies/Announcement.php",
+		"/var/www/html/control/app/Models/Companies/Projects/Contract.php",
+		"/var/www/html/control/app/Http/Controllers/Companies/ProgrammesController.php",
+		"/var/www/html/control/app/Http/Helpers/FormHelpers.php",
+		"/var/www/html/control/app/Repositories/Eloquent/Companies/Projects/ContractRepository.php",
+		"/var/www/html/control/app/Http/Controllers/Admin/CompaniesController.php",
+		"/var/www/html/control/config/controlplus.php",
+		"/var/www/html/control/app/Models/Companies/Project.php",
+		"/var/www/html/control/resources/views/companies/audits/index.blade.php",
+		"/var/www/html/control/resources/views/companies/projects/report.blade.php",
+		"/var/www/html/control/app/Traits/ActivityTrait.php",
+		"/var/www/html/control/app/Presenters/ProjectPresenter.php",
+		"/var/www/html/control/database/migrations/2016_08_16_091013_create_project_activities_table.php",
+		"/var/www/html/control/app/Models/Companies/Projects/ProjectActivity.php",
+		"/var/www/html/control/app/Models/Companies/Projects/ProjectReplan.php",
+		"/var/www/html/control/database/migrations/2016_07_30_053043_create_project_reopens_tables.php",
+		"/var/www/html/control/database/migrations/2016_07_30_053034_create_project_terminations_tables.php",
+		"/var/www/html/control/app/Models/Companies/Projects/ProjectReopen.php",
+		"/var/www/html/control/app/Models/Companies/Projects/ProjectTermination.php",
+		"/var/www/html/control/database/migrations/2016_06_17_092258_create_project_replan_table.php",
+		"/var/www/html/control/app/Traits/Companies/GenerateUniqueCode.php",
+		"/var/www/html/control/database/factories/ModelFactory.php",
+		"/var/www/html/control/app/Repositories/Eloquent/Companies/ContactRepository.php",
+		"/var/www/html/control/database/migrations/2016_04_06_052949_create_workorders_table.php",
+		"/var/www/html/control/app/Presenters/WorkorderPresenter.php",
+		"/var/www/html/control/app/Repositories/Eloquent/Companies/UsergroupRepository.php",
+		"/var/www/html/control/resources/views/companies/users/usergroups/index.blade.php"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 145.0,
+		"where_history":
+		[
+			"/var/www/html/control/resources/views",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<a href=\"#\">\n                             <i class=\"material-icons\">node_edit</i>\n                         </a>\n                         <a href=\"#\">\n                             <i class=\"material-icons\">delete</i>\n                         </a>",
+			"width=\"3%\"",
+			"<i class=\"material-icons\">delete</i>",
+			"<i class=\"material-icons\">node_edit</i>",
+			"remove",
+			"button",
+			"larablog",
+			" /*\n        |-",
+			"date",
+			"form",
+			"form-validate",
+			"form-control",
+			"client",
+			"followers",
+			"work_ca",
+			"z-index",
+			"modal",
+			"forelse",
+			"my",
+			"a",
+			"contractedWith",
+			"Orange",
+			"orange",
+			"shuffle",
+			"'',",
+			"full_name",
+			"state",
+			"contacts",
+			"state",
+			"pending",
+			"title",
+			"programmes",
+			"public",
+			"programmes",
+			"workcategories",
+			"filter",
+			"latest",
+			"projects",
+			"'phase' => $phase, 'flag' => $flag, 'programme' => $programme,",
+			"archives",
+			"CompanyUserController",
+			"usergroups",
+			"contactGroupRepo",
+			"contactgroups",
+			"manage.users.index",
+			"$company->users",
+			"projects",
+			"projectRepo",
+			"status",
+			"<form",
+			">form",
+			"form",
+			"programme",
+			"teams",
+			"programmes",
+			"select",
+			"client",
+			"project_sponsor",
+			"project_deputy",
+			"projectSponsor",
+			"workorders",
+			"workorderRepo",
+			"WorkorderRepo",
+			"workorderRepo",
+			"request",
+			"inputs",
+			"a",
+			"contactRepo",
+			"ContactRepo",
+			"contactRepo",
+			"workcategories",
+			"archives",
+			"flag",
+			"model->id",
+			"$model->id",
+			"getUniqueCode",
+			"this",
+			"$this->id",
+			"10",
+			"project_manager",
+			"{{",
+			"$request",
+			"post",
+			"user",
+			"a",
+			"data-",
+			"delete",
+			"modal",
+			"programmeRepo",
+			"programme_title",
+			"programmes",
+			"updateLead",
+			"manageWorkorder",
+			"addSubworkorder",
+			"workorder->subWorkorders",
+			"inputs['sub_workorders']",
+			"request()->sub_workorders",
+			"sub_workorders",
+			"12",
+			"fold",
+			"sub",
+			"lead_workorder",
+			"lead_work",
+			"lead_workder",
+			"lead_workorder",
+			"sub_workorders",
+			"project_manager",
+			"users",
+			"contacts",
+			"modal",
+			"midal",
+			"followers",
+			"modal",
+			"mofal",
+			"modal",
+			"client",
+			"User",
+			"user",
+			"order_code",
+			"code",
+			"project_code",
+			"country",
+			"location",
+			"('menu')",
+			"@include('menu')",
+			"include('menu')",
+			"menu",
+			"projects"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			">\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "resources/views/welcome.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9390.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/control/resources/views/companies/workorders/edittemplate.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2753,
+								2753
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										368,
+										369
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										152,
+										153
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 132.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 50.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 212.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.paneltranformations":
+	{
+		"height": 239.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 96.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"style.css",
+				"public/css/style.css"
+			],
+			[
+				"welcoem",
+				"resources/views/welcome.blade.php"
+			],
+			[
+				"welcomw",
+				"node_modules/webpack/lib/CaseSensitiveModulesWarning.js"
+			],
+			[
+				"routes.php",
+				"app/Http/routes.php"
+			],
+			[
+				"routeser",
+				"app/Providers/RouteServiceProvider.php"
+			],
+			[
+				"add_ap",
+				"database/migrations/2016_08_22_070216_add_api_token_to_users_table.php"
+			],
+			[
+				"auth.php",
+				"config/auth.php"
+			],
+			[
+				"authen",
+				"app/Http/Middleware/Authenticate.php"
+			],
+			[
+				"authguard",
+				"vendor/laravel/framework/src/Illuminate/Auth/TokenGuard.php"
+			],
+			[
+				"authentica",
+				"app/Http/Middleware/Authenticate.php"
+			],
+			[
+				"authcontr",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"authcontroler",
+				"app/Http/Controllers/Api/Auth/AuthController.php"
+			],
+			[
+				"authenticate",
+				"app/Http/Middleware/Authenticate.php"
+			],
+			[
+				"repositor",
+				"app/Repositories/Eloquent/Repository.php"
+			],
+			[
+				"controller",
+				"app/Http/Controllers/Controller.php"
+			],
+			[
+				".htaccss",
+				"public/.htaccess"
+			],
+			[
+				"tokengua",
+				"vendor/laravel/framework/src/Illuminate/Auth/TokenGuard.php"
+			],
+			[
+				"companies",
+				"app/Http/Controllers/Companies/CompaniesController.php"
+			],
+			[
+				"api_token",
+				"database/migrations/2016_08_22_070216_add_api_token_to_users_table.php"
+			],
+			[
+				"auth",
+				"config/auth.php"
+			],
+			[
+				"kernel",
+				"app/Http/Kernel.php"
+			],
+			[
+				"kerne",
+				"app/Console/Kernel.php"
+			],
+			[
+				"companiescontroller",
+				"app/Http/Controllers/Companies/CompaniesController.php"
+			],
+			[
+				"companyrep",
+				"app/Repositories/Eloquent/Companies/CompanyRepository.php"
+			],
+			[
+				"routes",
+				"app/Http/routes.php"
+			],
+			[
+				"wokorder",
+				"app/Models/Companies/Workorder.php"
+			],
+			[
+				"workorders/index",
+				"resources/views/companies/workorders/index.blade.php"
+			],
+			[
+				"workordercontroller",
+				"app/Http/Controllers/Companies/WorkordersController.php"
+			],
+			[
+				"workorders/show",
+				"resources/views/companies/workorders/show.blade.php"
+			],
+			[
+				"init",
+				"public/js/core/source/init.js"
+			],
+			[
+				"init.js",
+				"public/js/core/source/init.js"
+			],
+			[
+				"controlplus.js",
+				"public/js/core/source/controlplus.js"
+			],
+			[
+				"demoform",
+				"public/js/core/demo/DemoFormComponents.js"
+			],
+			[
+				"add-new",
+				"resources/views/companies/contacts/add-new.blade.php"
+			],
+			[
+				"app.blade",
+				"resources/views/layouts/app.blade.php"
+			],
+			[
+				"projects/edit",
+				"resources/views/companies/projects/edit.blade.php"
+			],
+			[
+				"gulpfile",
+				"gulpfile.js"
+			],
+			[
+				"main.js",
+				"resources/assets/js/main.js"
+			],
+			[
+				"projects/basci",
+				"resources/views/companies/projects/partials/basic.blade.php"
+			],
+			[
+				"style",
+				"public/css/style.css"
+			],
+			[
+				"plans/show",
+				"resources/views/companies/plans/show.blade.php"
+			],
+			[
+				"users/edit",
+				"resources/views/companies/users/edit.blade.php"
+			],
+			[
+				"workordersc",
+				"app/Http/Controllers/Companies/WorkordersController.php"
+			],
+			[
+				"teamsc",
+				"app/Http/Controllers/Companies/TeamsController.php"
+			],
+			[
+				"companyuser",
+				"app/Http/Controllers/Companies/CompanyUserController.php"
+			],
+			[
+				"contactgroupscontr",
+				"app/Http/Controllers/Companies/ContactGroupsController.php"
+			],
+			[
+				"contactsc",
+				"app/Http/Controllers/Companies/ContactsController.php"
+			],
+			[
+				"compausercon",
+				"app/Http/Controllers/Companies/CompanyUserController.php"
+			],
+			[
+				"projects/basic",
+				"resources/views/companies/projects/partials/basic.blade.php"
+			],
+			[
+				"styl",
+				"public/css/style.css"
+			],
+			[
+				"st",
+				"node_modules/json-stringify-safe/test/stringify_test.js"
+			],
+			[
+				"contactgroups/index",
+				"resources/views/companies/contacts/contactgroups/index.blade.php"
+			],
+			[
+				"contacts/inde",
+				"resources/views/companies/contacts/index.blade.php"
+			],
+			[
+				"users/index",
+				"resources/views/companies/users/index.blade.php"
+			],
+			[
+				"editnew",
+				"resources/views/companies/workorders/editnew.blade.php"
+			],
+			[
+				"milestones/index",
+				"resources/views/companies/projects/milestones/index.blade.php"
+			],
+			[
+				"risks/inde",
+				"resources/views/companies/projects/risks/index.blade.php"
+			],
+			[
+				"contract/index",
+				"resources/views/companies/projects/contracts/index.blade.php"
+			],
+			[
+				"projects/team",
+				"app/Http/Controllers/Companies/Projects/TeamsController.php"
+			],
+			[
+				"users/prof",
+				"resources/views/users/profile.blade.php"
+			],
+			[
+				"contacts/index",
+				"resources/views/companies/contacts/index.blade.php"
+			],
+			[
+				"teams/show",
+				"resources/views/companies/teams/show.blade.php"
+			],
+			[
+				"teamscontroller",
+				"app/Http/Controllers/Companies/TeamsController.php"
+			],
+			[
+				"teams/index",
+				"resources/views/companies/teams/index.blade.php"
+			],
+			[
+				"users/edi",
+				"resources/views/companies/users/edit.blade.php"
+			],
+			[
+				"users/show",
+				"resources/views/companies/users/show.blade.php"
+			],
+			[
+				"partials/bas",
+				"resources/views/companies/partials/basic.blade.php"
+			],
+			[
+				"companies/form",
+				"resources/views/companies/form.blade.php"
+			],
+			[
+				"add-sub",
+				"resources/views/companies/workorders/add-sub.blade.php"
+			],
+			[
+				"vue_project.",
+				"resources/assets/js/vue_project.js"
+			],
+			[
+				"vue_projec",
+				"public/js/vue_project.js"
+			],
+			[
+				"companypres",
+				"app/Presenters/CompanyPresenter.php"
+			],
+			[
+				"workorderscontroller",
+				"app/Http/Controllers/Companies/WorkordersController.php"
+			],
+			[
+				"workorders/edit",
+				"resources/views/companies/workorders/editnew.blade.php"
+			],
+			[
+				"app.blade.php",
+				"resources/views/layouts/app.blade.php"
+			],
+			[
+				"select2.cs",
+				"public/css/theme-default/libs/select2/select2.css"
+			],
+			[
+				"bootstap.css",
+				"public/css/theme-default/bootstrap.css"
+			],
+			[
+				"mail.php",
+				"config/mail.php"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"user.php",
+				"app/Models/User.php"
+			],
+			[
+				"company.php",
+				"app/Models/Companies/Company.php"
+			],
+			[
+				"usercompany",
+				"app/Traits/Companies/UserCompany.php"
+			],
+			[
+				"user/php",
+				"app/Http/Requests/User/UpdateUserRequest.php"
+			],
+			[
+				"user.phpp",
+				"node_modules/node-sass/src/libsass/src/remove_placeholders.hpp"
+			],
+			[
+				"companyuserc",
+				"app/Http/Controllers/Companies/CompanyUserController.php"
+			],
+			[
+				"workorderre",
+				"app/Repositories/Eloquent/Companies/WorkorderRepository.php"
+			],
+			[
+				"workorderer",
+				"app/Repositories/Eloquent/Companies/WorkorderRepository.php"
+			],
+			[
+				"projects/index",
+				"resources/views/companies/projects/index.blade.php"
+			],
+			[
+				"wokr",
+				"app/Models/Companies/Workorder.php"
+			],
+			[
+				"workorders",
+				"app/Http/Controllers/Companies/WorkordersController.php"
+			],
+			[
+				"projectsco",
+				"app/Http/Controllers/Companies/ProjectsController.php"
+			],
+			[
+				"announcements/index",
+				"resources/views/companies/announcements/index.blade.php"
+			],
+			[
+				"filescontroller",
+				"app/Http/Controllers/Companies/FilesController.php"
+			],
+			[
+				"announcmentscont",
+				"app/Http/Controllers/Companies/AnnouncementsController.php"
+			],
+			[
+				"annoucontro",
+				"app/Http/Controllers/Companies/AnnouncementsController.php"
+			],
+			[
+				"announcements/create",
+				"resources/views/companies/announcements/create.blade.php"
+			],
+			[
+				"announcementrepo",
+				"app/Repositories/Eloquent/AnnouncementRepository.php"
+			],
+			[
+				"create_anno",
+				"database/migrations/2016_05_18_050913_create_announcements_table.php"
+			],
+			[
+				"alerts",
+				"resources/views/layouts/partials/alerts.blade.php"
+			],
+			[
+				"file.php",
+				"app/Models/Companies/File.php"
+			],
+			[
+				"add_file",
+				"database/migrations/2016_08_17_113457_add_file_size_to_files_table.php"
+			],
+			[
+				"announcements/show",
+				"resources/views/companies/announcements/show.blade.php"
+			],
+			[
+				"programmere",
+				"app/Repositories/Eloquent/Companies/ProgrammeRepository.php"
+			],
+			[
+				"contractcontroller",
+				"app/Http/Controllers/Companies/Projects/ContractsController.php"
+			],
+			[
+				"contract",
+				"app/Models/Companies/Projects/Contract.php"
+			],
+			[
+				"ann",
+				"app/Models/Companies/Announcement.php"
+			],
+			[
+				"filesc",
+				"app/Http/Controllers/Companies/FilesController.php"
+			],
+			[
+				"projectsc",
+				"app/Http/Controllers/Companies/ProjectsController.php"
+			],
+			[
+				"programmes",
+				"app/Http/Controllers/Companies/ProgrammesController.php"
+			],
+			[
+				"announcements/c",
+				"resources/views/companies/announcements/create.blade.php"
+			],
+			[
+				"contact/index",
+				"resources/views/companies/contacts/index.blade.php"
+			],
+			[
+				"anno",
+				"app/Models/Companies/Announcement.php"
+			],
+			[
+				"announcementcontro",
+				"app/Http/Controllers/Companies/AnnouncementsController.php"
+			],
+			[
+				"general",
+				"app/Http/Helpers/GeneralHelpers.php"
+			],
+			[
+				"filesco",
+				"app/Http/Controllers/Companies/FilesController.php"
+			],
+			[
+				"control",
+				"config/controlplus.php"
+			],
+			[
+				"project.php",
+				"app/Models/Companies/Project.php"
+			],
+			[
+				"contract.php",
+				"app/Http/Controllers/Companies/Projects/ContractsController.php"
+			],
+			[
+				"audit/index",
+				"resources/views/companies/audits/index.blade.php"
+			],
+			[
+				"report.b",
+				"resources/views/companies/projects/report.blade.php"
+			],
+			[
+				"workordercontro",
+				"app/Http/Controllers/Companies/WorkordersController.php"
+			],
+			[
+				"projectpres",
+				"app/Presenters/ProjectPresenter.php"
+			],
+			[
+				"projectreplan",
+				"app/Models/Companies/Projects/ProjectReplan.php"
+			],
+			[
+				"projectsctivi",
+				"app/Models/Companies/Projects/ProjectActivity.php.php"
+			],
+			[
+				"create_project_ac",
+				"database/migrations/2016_08_16_091013_create_project_activities_table.php"
+			],
+			[
+				"projectter",
+				"app/Models/Companies/Projects/ProjectTermination.php"
+			],
+			[
+				"projectreopen",
+				"app/Models/Companies/Projects/ProjectReopen.php"
+			],
+			[
+				"projectrepla",
+				"app/Models/Companies/Projects/ProjectReplan.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/html/control/controlplus.sublime-project"
+			],
+			[
+				"lara",
+				"/var/www/html/lara-blog/larablog/larablog.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
