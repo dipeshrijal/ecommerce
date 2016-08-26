@@ -9,7 +9,14 @@
         <link rel="stylesheet" href="/css/style.css">
         <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
         <!-- CSRF Token -->
-        <meta name="csrf-token" content="{{ csrf_token() }}">
+        {{-- <meta name="csrf-token" content="{{ csrf_token() }}"> --}}
+
+        <!-- Scripts -->
+        <script>
+            window.Laravel = <?php echo json_encode([
+            'csrfToken' => csrf_token(),
+        ]); ?>
+        </script>
 
 
         <style>
@@ -34,25 +41,6 @@
                             {{ csrf_field() }}
                         </form>
                     </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <li>
                         <a href="#!">
                             two

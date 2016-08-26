@@ -1,0 +1,47 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,400i,700';
+html, body {
+    font-family: 'Lato', sans-serif;
+}
+
+.input-field .prefix {
+    color: #e040fb;
+}
+
+.input-field .prefix.active {
+    color: #388e3c;
+}
+
+#toast-container {
+  top: 10%;
+  right: auto !important;
+  bottom: auto !important;
+  left:33%;
+}
+
+
+/** FIXES for error messages https://github.com/Dogfalo/materialize/issues/1562*/
+
+label {
+    width: 100%;
+}
+
+label:after {
+    -moz-transition-property: all !important;
+    -o-transition-property: all !important;
+    -webkit-transition-property: all !important;
+    transition-property: all !important;
+    font-size: 0.8rem;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    -webkit-transform: none;
+    transform: none;
+}
+
+label:not(.active):after {
+    -moz-transform: translateY(-140%);
+    -ms-transform: translateY(-140%);
+    -o-transform: translateY(-140%);
+    -webkit-transform: translateY(-140%);
+    transform: translateY(-140%);
+}
