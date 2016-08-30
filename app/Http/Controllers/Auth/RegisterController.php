@@ -1,9 +1,9 @@
 <?php
 
-namespace ecommerce\Http\Controllers\Auth;
+namespace Ecommerce\Http\Controllers\Auth;
 
-use ecommerce\Http\Controllers\Controller;
-use ecommerce\User;
+use Ecommerce\Http\Controllers\Controller;
+use Ecommerce\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Validator;
 

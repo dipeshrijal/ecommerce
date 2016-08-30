@@ -1,9 +1,12 @@
 <?php
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['middleware' => 'web'], function ($router) {
+    $router->get('/', function () {
+        return view('welcome');
+    });
+
+    Auth::routes();
+
+    $router->get('/home', 'HomeController@index');
+
 });
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index');

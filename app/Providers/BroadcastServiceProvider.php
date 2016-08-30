@@ -1,6 +1,6 @@
 <?php
 
-namespace ecommerce\Providers;
+namespace Ecommerce\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;

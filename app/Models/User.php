@@ -1,6 +1,6 @@
 <?php
 
-namespace ecommerce\Models;
+namespace Ecommerce\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;

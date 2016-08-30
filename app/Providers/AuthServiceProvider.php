@@ -1,6 +1,6 @@
 <?php
 
-namespace ecommerce\Providers;
+namespace Ecommerce\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'ecommerce\Model' => 'ecommerce\Policies\ModelPolicy',
+        'Ecommerce\Model' => 'Ecommerce\Policies\ModelPolicy',
     ];
 
     /**

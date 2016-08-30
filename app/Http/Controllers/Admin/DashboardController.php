@@ -1,8 +1,8 @@
 <?php
 
-namespace ecommerce\Http\Controllers\Admin;
+namespace Ecommerce\Http\Controllers\Admin;
 
-use ecommerce\Http\Controllers\Controller;
+use Ecommerce\Http\Controllers\Controller;
 
 class DashboardController extends Controller
 {

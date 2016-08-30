@@ -1,6 +1,6 @@
 <?php
 
-namespace ecommerce\Exceptions;
+namespace Ecommerce\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;

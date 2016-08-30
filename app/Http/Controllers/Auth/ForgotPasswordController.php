@@ -1,8 +1,8 @@
 <?php
 
-namespace ecommerce\Http\Controllers\Auth;
+namespace Ecommerce\Http\Controllers\Auth;
 
-use ecommerce\Http\Controllers\Controller;
+use Ecommerce\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 class ForgotPasswordController extends Controller
