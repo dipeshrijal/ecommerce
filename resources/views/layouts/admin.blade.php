@@ -7,6 +7,7 @@
 
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
         <link href="/css/core/materialize.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
         <link href="/css/core/style.css" rel="stylesheet"/>
 
         <script>
@@ -120,6 +121,7 @@
             <script src="/js/core/jquery.min.js" type="text/javascript"></script>
             <script src="/js/core/materialize.min.js"></script>
             <script src="/js/libs/jquery-validation/jquery.validate.min.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
             <script src="/js/core/init.js"></script>
 
             <script>

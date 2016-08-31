@@ -14,7 +14,7 @@
                         <div class="card small p-small">
 
                             <div class="card-content">
-                                <span class="card-title">{{ str_limit($category->name, 20) }}</span>
+                                <span class="card-title">{{ $category->name }}</span>
 
                                 <a class='dropdown-button right' href='#' data-activates='card-drop{{ $category->id }}'><i class="material-icons">more_vert</i></a>
 
@@ -24,8 +24,12 @@
                                   <li><a href="#!" class="center-align delete-link"><i class="material-icons red-text">delete</i></a></li>
                                 </ul>
 
-                                {!! Form::open(['route' => ['categories.destroy', $category->id], 'style' => 'display:none', 'method' => 'delete', 'class' => 'delete-form']) !!}
+                                {!! Form::open(['route' => ['categories.destroy', $category->id], 'method' => 'delete', 'class' => 'delete-form', 'style' => "display: none;"]) !!}
+
+                                    {{ method_field('DELETE') }}
+
                                 {!! Form::close() !!}
+
 
                                 {!! Form::model($category, ['route' => ['categories.update', $category->id], 'method' => 'put', 'class' => 'form-validate']) !!}
 
@@ -39,7 +43,8 @@
                                                     <i class="material-icons green-text prefix">
                                                         account_circle
                                                     </i>
-                                                    {!! Form::text('name', null, ['class' => $errors->has('name') ? 'invalid' : '', 'id' => 'name', 'autofocus']) !!}
+                                                    {{ $category->id }}
+                                                    {!! Form::text('name', null, ['class' => "$errors->has('name')) ? 'invalid' : ''", 'id' => 'name', 'autofocus', 'required']) !!}
                                                     <label for="name" data-error="{{ $errors->first('name') }}"> Category Name <span class="red-text">*</span></label>
 
 
@@ -114,8 +119,10 @@
                     <i class="material-icons green-text prefix">
                         account_circle
                     </i>
-                    {!! Form::text('name', null, ['class' => $errors->has('name') ? 'invalid' : '', 'id' => 'name', 'autofocus', 'required']) !!}
+                    <input class="{{ ($errors->has('name')) ? 'invalid' : '' }}" id="name" name="name" type="text" value="{{ old('name') }}" autofocus required />
                     <label for="name" data-error="{{ $errors->first('name') }}"> Category Name <span class="red-text">*</span></label>
+
+
                 </div>
             </div>
 
@@ -124,7 +131,7 @@
                     <i class="material-icons green-text prefix">
                         comment
                     </i>
-                    {!! Form::textarea('description', null, ['class' => 'materialize-textarea', 'id' => 'description']) !!}
+                    <textarea class="materialize-textarea" name="description" id="description">{{ old('description') }}</textarea>
                     <label for="description">
                         Category Description
                     </label>
@@ -155,26 +162,8 @@
 
     <script>
         $('.delete-link').on('click', function(event) {
-            var form = $(this).closest('ul').next('.delete-form')
-            event.preventDefault()
-            swal({
-                title: "Are you sure?",
-                text: "You will not be able to recover this action",
-                type: "warning",
-                showCancelButton: true,
-                confirmButtonColor: "green",
-                confirmButtonText: "Yes",
-                cancelButtonText: "No",
-                closeOnConfirm: false,
-                closeOnCancel: false
-            }, function(isConfirm){
-                if (isConfirm) {
-                    form.submit()
-                } else {
-                    swal.close()
-                }
-            });
-
+            var form = $(this).next('.delete-form');
+            form.submit();
         });
     </script>
 

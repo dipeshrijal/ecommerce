@@ -9,4 +9,9 @@ $.validator.setDefaults({
         form.submit();
     }
 });
-$(".form-validate").validate();
+// $(".form-validate").validate();
+
+$(".form-validate").each(function() {
+  var $this = $(this);
+  $this.validate();
+});

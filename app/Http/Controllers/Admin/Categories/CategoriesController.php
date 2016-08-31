@@ -140,7 +140,6 @@ class CategoriesController extends AdminController
      */
     public function update(CategoryCreateRequest $request, $id)
     {
-        return $id;
         try {
 
             $this->validator->with($request->all())->passesOrFail(ValidatorInterface::RULE_UPDATE);
@@ -182,7 +181,6 @@ class CategoriesController extends AdminController
      */
     public function destroy($id)
     {
-        return $id;
         $deleted = $this->repository->delete($id);
 
         if (request()->wantsJson()) {
