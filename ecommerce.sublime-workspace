@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"this",
+				"this	$(this)"
+			],
+			[
+				"re",
+				"required	Attr"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"des",
+				"description	(index.blade.php)"
+			],
+			[
+				"error",
+				"errors"
+			],
+			[
+				"cs",
+				"csrf_field	(admin.blade.php)"
+			],
+			[
 				"func",
 				"function	(web.admin.php)"
 			],
@@ -90,10 +118,6 @@
 			[
 				"add",
 				"addPhoto	(AnnouncementsController.php)"
-			],
-			[
-				"this",
-				"thisDropzone"
 			],
 			[
 				"announ",
@@ -490,30 +514,6 @@
 			[
 				"data",
 				"data-category"
-			],
-			[
-				"cl",
-				"click	.click()"
-			],
-			[
-				"fomat",
-				"format_options"
-			],
-			[
-				"error",
-				"errorToast"
-			],
-			[
-				"remove",
-				"remove-field"
-			],
-			[
-				"strt",
-				"strtoupper"
-			],
-			[
-				"for",
-				"for	for …"
 			]
 		]
 	},
@@ -527,17 +527,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 192.0,
-		"last_filter": "boxy",
+		"height": 357.0,
+		"last_filter": "user",
 		"selected_items":
 		[
 			[
-				"boxy",
-				"Boxy Theme: Configuration"
-			],
-			[
 				"user",
 				"Preferences: Settings - User"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Configuration"
 			],
 			[
 				"delete",
@@ -928,38 +928,57 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/ecommerce"
+		"/var/www/html/ecommerce",
+		"/var/www/html/ecommerce/public"
 	],
 	"file_history":
 	[
 		"/var/www/html/ecommerce/resources/views/layouts/admin.blade.php",
-		"/var/www/html/ecommerce/app/Models/User.php",
-		"/home/dipesh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/var/www/html/ecommerce/config/auth.php",
-		"/var/www/html/ecommerce/composer.json",
-		"/home/dipesh/.config/sublime-text-3/Packages/User/CodeFormatter.sublime-settings",
-		"/var/www/html/ecommerce/routes/web.php",
-		"/var/www/html/ecommerce/routes/web.admin.php",
-		"/var/www/html/ecommerce/resources/views/layouts/app.blade.php",
-		"/var/www/html/ecommerce/database/migrations/2016_08_29_191114_create_categories_table.php",
+		"/var/www/html/ecommerce/resources/views/admin/categories/index.blade.php",
+		"/var/www/html/ecommerce/vendor/prettus/l5-repository/src/Prettus/Repository/Eloquent/BaseRepository.php",
+		"/var/www/html/ecommerce/app/Http/Requests/CategoryCreateRequest.php",
 		"/var/www/html/ecommerce/app/Http/Controllers/Admin/Categories/CategoriesController.php",
-		"/var/www/html/ecommerce/resources/views/auth/register.blade.php",
+		"/var/www/html/ecommerce/resources/views/layouts/partials/alerts.blade.php",
+		"/var/www/html/ecommerce/vendor/prettus/l5-repository/src/Prettus/Repository/Events/RepositoryEntityUpdated.php",
+		"/var/www/html/ecommerce/app/Http/Requests/CategoryUpdateRequest.php",
+		"/var/www/html/ecommerce/public/css/core/style.css",
+		"/var/www/html/ecommerce/config/app.php",
+		"/var/www/html/ecommerce/resources/views/layouts/app.blade.php",
+		"/var/www/html/ecommerce/composer.json",
+		"/var/www/html/ecommerce/public/js/core/init.js",
 		"/var/www/html/ecommerce/resources/views/auth/login.blade.php",
+		"/var/www/html/ecommerce/resources/views/examples/index.blade.php",
+		"/var/www/html/ecommerce/app/Providers/RepositoryServiceProvider.php",
+		"/var/www/html/ecommerce/app/Repositories/CategoryRepository.php",
+		"/var/www/html/ecommerce/app/Entities/Category.php",
+		"/var/www/html/ecommerce/routes/web.admin.php",
+		"/var/www/html/ecommerce/app/Repositories/CategoryRepositoryEloquent.php",
+		"/var/www/html/ecommerce/app/Providers/RouteServiceProvider.php",
+		"/var/www/html/ecommerce/app/Http/Controllers/Admin/AdminController.php",
+		"/var/www/html/ecommerce/config/auth.php",
+		"/home/dipesh/.config/sublime-text-3/Packages/User/CodeFormatter.sublime-settings",
+		"/var/www/html/ecommerce/config/repository.php",
+		"/var/www/html/ecommerce/app/Entities/User.php",
+		"/var/www/html/ecommerce/app/Http/Controllers/CategoriesController.php",
+		"/home/dipesh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/html/ecommerce/bootstrap/app.php",
+		"/var/www/html/ecommerce/app/Repositories/EloquentRepository.php",
+		"/var/www/html/ecommerce/app/Models/Category.php",
+		"/var/www/html/ecommerce/database/migrations/2016_08_29_191114_create_categories_table.php",
+		"/var/www/html/ecommerce/routes/web.php",
+		"/var/www/html/ecommerce/app/Models/User.php",
+		"/var/www/html/ecommerce/resources/views/auth/register.blade.php",
 		"/var/www/html/ecommerce/app/Http/Controllers/Auth/LoginController.php",
 		"/var/www/html/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php",
 		"/var/www/html/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
-		"/var/www/html/ecommerce/public/js/core/init.js",
-		"/var/www/html/ecommerce/public/css/core/style.css",
 		"/var/www/html/ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php",
 		"/var/www/html/ecommerce/app/Http/Controllers/Auth/RegisterController.php",
-		"/var/www/html/ecommerce/resources/views/layouts/partials/alerts.blade.php",
 		"/var/www/html/ecommerce/gulpfile.js",
 		"/var/www/html/ecommerce/public/common/js/jquery.min.js",
 		"/var/www/html/ecommerce/public/common/js/materialize.min.js",
 		"/var/www/html/ecommerce/public/common/css/materialize.min.css",
 		"/var/www/html/ecommerce/public/css/style.css",
 		"/var/www/html/ecommerce/vendor/laravel/framework/src/Illuminate/Auth/Console/stubs/make/views/auth/register.stub",
-		"/var/www/html/ecommerce/app/Providers/RouteServiceProvider.php",
 		"/var/www/html/ecommerce/resources/views/admin/dashboard.blade.php",
 		"/var/www/html/ecommerce/app/Http/Controllers/Admin/DashboardController.php",
 		"/var/www/html/ecommerce/database/migrations/2014_10_12_000000_create_users_table.php",
@@ -968,7 +987,6 @@
 		"/var/www/html/ecommerce/resources/views/welcome-mcss.blade.php",
 		"/var/www/html/ecommerce/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php",
 		"/var/www/html/ecommerce/resources/views/layouts/main.blade.php",
-		"/var/www/html/ecommerce/resources/views/examples/index.blade.php",
 		"/var/www/html/control/resources/views/companies/workorders/edittemplate.blade.php",
 		"/var/www/html/ecommerce/untitled.sublime-project",
 		"/var/www/html/ecommerce/node_modules/webpack/lib/CaseSensitiveModulesWarning.js",
@@ -1042,28 +1060,11 @@
 		"/var/www/html/control/resources/views/companies/form.blade.php",
 		"/var/www/html/control/resources/views/companies/workorders/add-sub.blade.php",
 		"/var/www/html/control/resources/assets/js/vue_project.js",
-		"/var/www/html/control/public/js/vue_project.js",
-		"/var/www/html/control/node_modules/acorn/bin/update_authors.sh",
-		"/var/www/html/control/public/css/theme-default/bootstrap.css",
-		"/var/www/html/control/public/css/theme-default/libs/select2/select2.css",
-		"/var/www/html/control/public/css/theme-default/libs/select2/select2-old.css",
-		"/var/www/html/control/config/mail.php",
-		"/var/www/html/control/.env",
-		"/var/www/html/control/app/Traits/Companies/CompanyUser.php",
-		"/var/www/html/control/app/Models/User.php",
-		"/var/www/html/control/app/Models/Companies/Company.php",
-		"/var/www/html/control/app/Traits/Companies/UserCompany.php",
-		"/var/www/html/control/app/Http/Requests/User/UpdateUserRequest.php",
-		"/var/www/html/control/node_modules/node-sass/src/libsass/src/remove_placeholders.hpp",
-		"/var/www/html/control/resources/views/companies/projects/index.blade.php",
-		"/var/www/html/control/app/Http/Controllers/Companies/ProjectsController.php",
-		"/var/www/html/control/app/Repositories/Eloquent/Companies/ProjectRepository.php",
-		"/var/www/html/control/resources/views/companies/announcements/create.blade.php",
-		"/var/www/html/control/resources/views/companies/announcements/index.blade.php"
+		"/var/www/html/control/public/js/vue_project.js"
 	],
 	"find":
 	{
-		"height": 64.0
+		"height": 54.0
 	},
 	"find_in_files":
 	{
@@ -1079,6 +1080,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"modal1",
+			"modal-1",
+			"modal1",
+			"required",
+			"textarea1",
+			"button",
+			"first_name",
+			"blue-grey",
+			"pink",
+			"dropdown1",
+			"a",
 			"space",
 			"</hr",
 			"validate",
@@ -1195,18 +1207,7 @@
 			"sub",
 			"lead_workorder",
 			"lead_work",
-			"lead_workder",
-			"lead_workorder",
-			"sub_workorders",
-			"project_manager",
-			"users",
-			"contacts",
-			"modal",
-			"midal",
-			"followers",
-			"modal",
-			"mofal",
-			"modal"
+			"lead_workder"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1288,36 +1289,124 @@
 		"selected_items":
 		[
 			[
-				"user",
-				"app/Models/User.php"
-			],
-			[
 				"admin.blade",
 				"resources/views/layouts/admin.blade.php"
 			],
 			[
-				"auth",
-				"config/auth.php"
+				"aler",
+				"resources/views/layouts/partials/alerts.blade.php"
 			],
 			[
-				"composer",
-				"composer.json"
+				"style",
+				"public/css/core/style.css"
 			],
 			[
-				"admin",
-				"resources/views/layouts/admin.blade.php"
+				"app.php",
+				"config/app.php"
 			],
 			[
 				"app.blade",
 				"resources/views/layouts/app.blade.php"
 			],
 			[
-				"rweb",
-				"routes/web.php"
+				"composer",
+				"composer.json"
+			],
+			[
+				"composer.json",
+				"composer.json"
+			],
+			[
+				"style.css",
+				"public/css/core/style.css"
+			],
+			[
+				"init.js",
+				"public/js/core/init.js"
+			],
+			[
+				"alerts",
+				"resources/views/layouts/partials/alerts.blade.php"
+			],
+			[
+				"login.blade",
+				"resources/views/auth/login.blade.php"
+			],
+			[
+				"index.blade",
+				"resources/views/admin/categories/index.blade.php"
+			],
+			[
+				"example.bla",
+				"resources/views/examples/index.blade.php"
+			],
+			[
+				"config/app",
+				"config/app.php"
+			],
+			[
+				"repo",
+				"app/Providers/RepositoryServiceProvider.php"
+			],
+			[
+				"repos",
+				"app/Providers/RepositoryServiceProvider.php"
+			],
+			[
+				"routerser",
+				"app/Providers/RouteServiceProvider.php"
 			],
 			[
 				"routes/",
 				"routes/web.admin.php"
+			],
+			[
+				"categoriesc",
+				"app/Http/Controllers/Admin/Categories/CategoriesController.php"
+			],
+			[
+				"auth.php",
+				"config/auth.php"
+			],
+			[
+				"configapp.php",
+				"config/app.php"
+			],
+			[
+				"login.lad",
+				"resources/views/auth/login.blade.php"
+			],
+			[
+				"categori",
+				"database/migrations/2016_08_29_191114_create_categories_table.php"
+			],
+			[
+				"category",
+				"app/Models/Category.php"
+			],
+			[
+				"categories",
+				"app/Http/Controllers/Admin/Categories/CategoriesController.php"
+			],
+			[
+				"rweb",
+				"routes/web.php"
+			],
+			[
+				"caregories",
+				"app/Http/Controllers/CategoriesController.php"
+			],
+			[
+				"user",
+				"app/Models/User.php"
+			],
+			[
+				"auth",
+				"config/auth.php"
+			],
+			[
+				"admin",
+				"resources/views/layouts/admin.blade.php"
 			],
 			[
 				"create_ca",
@@ -1336,20 +1425,8 @@
 				"app/Http/Controllers/Auth/RegisterController.php"
 			],
 			[
-				"style.css",
-				"public/css/core/style.css"
-			],
-			[
 				"logincon",
 				"app/Http/Controllers/Auth/LoginController.php"
-			],
-			[
-				"login.blade",
-				"resources/views/auth/login.blade.php"
-			],
-			[
-				"style",
-				"public/css/core/style.css"
 			],
 			[
 				"regis",
@@ -1422,10 +1499,6 @@
 			[
 				"add_ap",
 				"database/migrations/2016_08_22_070216_add_api_token_to_users_table.php"
-			],
-			[
-				"auth.php",
-				"config/auth.php"
 			],
 			[
 				"authen",
@@ -1513,10 +1586,6 @@
 			],
 			[
 				"init",
-				"public/js/core/source/init.js"
-			],
-			[
-				"init.js",
 				"public/js/core/source/init.js"
 			],
 			[
@@ -1730,74 +1799,6 @@
 			[
 				"workorderer",
 				"app/Repositories/Eloquent/Companies/WorkorderRepository.php"
-			],
-			[
-				"projects/index",
-				"resources/views/companies/projects/index.blade.php"
-			],
-			[
-				"wokr",
-				"app/Models/Companies/Workorder.php"
-			],
-			[
-				"workorders",
-				"app/Http/Controllers/Companies/WorkordersController.php"
-			],
-			[
-				"projectsco",
-				"app/Http/Controllers/Companies/ProjectsController.php"
-			],
-			[
-				"announcements/index",
-				"resources/views/companies/announcements/index.blade.php"
-			],
-			[
-				"filescontroller",
-				"app/Http/Controllers/Companies/FilesController.php"
-			],
-			[
-				"announcmentscont",
-				"app/Http/Controllers/Companies/AnnouncementsController.php"
-			],
-			[
-				"annoucontro",
-				"app/Http/Controllers/Companies/AnnouncementsController.php"
-			],
-			[
-				"announcements/create",
-				"resources/views/companies/announcements/create.blade.php"
-			],
-			[
-				"announcementrepo",
-				"app/Repositories/Eloquent/AnnouncementRepository.php"
-			],
-			[
-				"create_anno",
-				"database/migrations/2016_05_18_050913_create_announcements_table.php"
-			],
-			[
-				"alerts",
-				"resources/views/layouts/partials/alerts.blade.php"
-			],
-			[
-				"file.php",
-				"app/Models/Companies/File.php"
-			],
-			[
-				"add_file",
-				"database/migrations/2016_08_17_113457_add_file_size_to_files_table.php"
-			],
-			[
-				"announcements/show",
-				"resources/views/companies/announcements/show.blade.php"
-			],
-			[
-				"programmere",
-				"app/Repositories/Eloquent/Companies/ProgrammeRepository.php"
-			],
-			[
-				"contractcontroller",
-				"app/Http/Controllers/Companies/Projects/ContractsController.php"
 			]
 		],
 		"width": 0.0
@@ -1810,6 +1811,10 @@
 		[
 			[
 				"",
+				"/var/www/html/control/controlplus.sublime-project"
+			],
+			[
+				"co",
 				"/var/www/html/control/controlplus.sublime-project"
 			],
 			[
@@ -1835,8 +1840,8 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 263.0,
+	"side_bar_visible": false,
+	"side_bar_width": 252.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

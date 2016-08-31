@@ -11,6 +11,10 @@ html, body {
     color: #388e3c;
 }
 
+.card.p-small {
+    height: 200px;
+}
+
 #toast-container {
   top: 10%;
   right: auto !important;

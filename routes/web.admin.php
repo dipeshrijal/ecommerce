@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function () {
-    Route::get('/dashboard', 'DashboardController@index');
-    Route::resource('categories', 'Categories\CategoriesController');
+$router->group(['prefix' => 'admin', 'namespace' => 'Admin'], function () use ($router){
+    $router->get('/dashboard', 'DashboardController@index');
+    $router->resource('categories', 'Categories\CategoriesController');
 });

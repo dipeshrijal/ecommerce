@@ -116,23 +116,35 @@
 
         @yield('content')
 
-        <script src="/js/core/jquery.min.js" type="text/javascript"></script>
-        <script src="/js/core/materialize.min.js"></script>
+        @section('scripts')
+            <script src="/js/core/jquery.min.js" type="text/javascript"></script>
+            <script src="/js/core/materialize.min.js"></script>
+            <script src="/js/libs/jquery-validation/jquery.validate.min.js"></script>
+            <script src="/js/core/init.js"></script>
 
-        <script>
-            $(".brand-logo").sideNav();
+            <script>
+                $(".brand-logo").sideNav();
 
-            $(".dropdown-button").dropdown();
+                $(".dropdown-button").dropdown();
 
-            $(document).ready(function() {
-                $('select').material_select();
-                $('.modal-trigger').leanModal();
-            });
+                $(document).ready(function() {
+                    $('select').material_select();
 
-            $('.datepicker').pickadate({
-                selectMonths: true, // Creates a dropdown to control month
-                selectYears: 15 // Creates a dropdown of 15 years to control year
-            });
-        </script>
+                    $('.modal-trigger').leanModal({
+                        dismissible: false
+                    });
+                });
+
+                $('.datepicker').pickadate({
+                    selectMonths: true, // Creates a dropdown to control month
+                    selectYears: 15 // Creates a dropdown of 15 years to control year
+                });
+            </script>
+        @show
+
+
+
+        @include('layouts.partials.alerts')
+
     </body>
 </html>
