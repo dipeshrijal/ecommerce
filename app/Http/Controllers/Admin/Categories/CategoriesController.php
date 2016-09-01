@@ -109,7 +109,7 @@ class CategoriesController extends AdminController
             ]);
         }
 
-        return view('categories.show', compact('category'));
+        return view('admin.categories.show', compact('category'));
     }
 
 
@@ -190,6 +190,6 @@ class CategoriesController extends AdminController
             ]);
         }
 
-        return redirect()->back()->with('success', 'Category deleted.');
+        return redirect()->route('categories.index')->with('success', 'Category deleted.');
     }
 }
