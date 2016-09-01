@@ -15,13 +15,6 @@ html, body {
     height: 200px;
 }
 
-#toast-container {
-  top: 10%;
-  right: auto !important;
-  bottom: auto !important;
-  left:33%;
-}
-
 
 /** FIXES for error messages https://github.com/Dogfalo/materialize/issues/1562*/
 
@@ -48,4 +41,29 @@ label:not(.active):after {
     -o-transform: translateY(-140%);
     -webkit-transform: translateY(-140%);
     transform: translateY(-140%);
+}
+
+#toast-container {
+    margin-top: 40px;
+}
+
+#toast-container > div {
+    opacity: 1;
+}
+
+#toast-container.toast-top-center > div {
+    width: 60%;
+}
+
+.toast-success {
+  background-color: #4caf50;
+}
+.toast-error {
+  background-color: #f44336;
+}
+.toast-info {
+  background-color: #2196f3;
+}
+.toast-warning {
+  background-color: #ff9800;
 }

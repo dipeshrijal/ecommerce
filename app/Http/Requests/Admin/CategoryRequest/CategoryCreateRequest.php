@@ -1,6 +1,6 @@
 <?php
 
-namespace Ecommerce\Http\Requests;
+namespace Ecommerce\Http\Requests\Admin\CategoryRequest;
 
 use Illuminate\Foundation\Http\FormRequest;
 

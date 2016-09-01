@@ -6,8 +6,9 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-        <link href="/css/core/materialize.min.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+        <link href="/css/core/materialize.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="/css/libs/sweetalert/sweetalert.css">
+        <link rel="stylesheet" href="/css/libs/toastr/toastr.css">
         <link href="/css/core/style.css" rel="stylesheet"/>
 
         <script>
@@ -27,7 +28,7 @@
     <body>
         <div class="navbar-fixed">
 
-            <nav class="purple white-text">
+            <nav class="indigo lighten-1 white-text">
                 <ul class="dropdown-content" id="dropdown1">
                     <li>
                         <a href="{{ url('/logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
@@ -81,39 +82,7 @@
 
         </div>
 
-        <ul class="side-nav" id="slide-out">
-            <li>
-                <div class="userView">
-                    <img class="background" src="http://placehold.it/300x200"/>
-                    <a href="#!user">
-                        <img class="circle" src="http://placehold.it/64x64"/>
-                    </a>
-                    <a href="#!name">
-                        <span class="white-text name"> John Doe </span>
-                    </a>
-                    <a href="#!email">
-                        <span class="white-text email"> jdandturk@gmail.com </span>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <a href="#!">
-                    <i class="material-icons">cloud</i> First Link With Icon
-                </a>
-            </li>
-            <li>
-                <a href="#!"> Second Link </a>
-            </li>
-            <li>
-                <div class="divider"></div>
-            </li>
-            <li>
-                <a class="subheader"> Subheader </a>
-            </li>
-            <li>
-                <a class="waves-effect" href="#!"> Third Link With Waves </a>
-            </li>
-        </ul>
+        @include('layouts.partials._sidebar')
 
         @yield('content')
 
@@ -121,7 +90,8 @@
             <script src="/js/core/jquery.min.js" type="text/javascript"></script>
             <script src="/js/core/materialize.min.js"></script>
             <script src="/js/libs/jquery-validation/jquery.validate.min.js"></script>
-            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+            <script type="text/javascript" src="/js/libs/sweetalert/sweetalert.min.js"></script>
+            <script type="text/javascript" src="/js/libs/toastr/toastr.min.js"></script>
             <script src="/js/core/init.js"></script>
 
             <script>
@@ -145,8 +115,8 @@
         @show
 
 
+        @include('layouts.partials._alerts')
 
-        @include('layouts.partials.alerts')
 
     </body>
 </html>

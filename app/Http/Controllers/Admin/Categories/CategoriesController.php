@@ -6,11 +6,10 @@ use Ecommerce\Http\Requests;
 use Illuminate\Http\Request;
 use Ecommerce\Validators\CategoryValidator;
 use Ecommerce\Repositories\CategoryRepository;
-use Ecommerce\Http\Requests\CategoryCreateRequest;
-use Ecommerce\Http\Requests\CategoryUpdateRequest;
 use Prettus\Validator\Contracts\ValidatorInterface;
 use Prettus\Validator\Exceptions\ValidatorException;
 use Ecommerce\Http\Controllers\Admin\AdminController;
+use Ecommerce\Http\Requests\Admin\CategoryRequest\CategoryCreateRequest;
 
 
 class CategoriesController extends AdminController
@@ -78,7 +77,7 @@ class CategoriesController extends AdminController
                 return response()->json($response);
             }
 
-            return redirect()->back()->with('message', $response['message']);
+            return redirect()->back()->with('success', $response['message']);
         } catch (ValidatorException $e) {
             if ($request->wantsJson()) {
                 return response()->json([
@@ -156,7 +155,7 @@ class CategoriesController extends AdminController
                 return response()->json($response);
             }
 
-            return redirect()->back()->with('message', $response['message']);
+            return redirect()->back()->with('success', $response['message']);
         } catch (ValidatorException $e) {
 
             if ($request->wantsJson()) {
@@ -191,6 +190,6 @@ class CategoriesController extends AdminController
             ]);
         }
 
-        return redirect()->back()->with('message', 'Category deleted.');
+        return redirect()->back()->with('success', 'Category deleted.');
     }
 }
