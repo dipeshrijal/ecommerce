@@ -4,13 +4,12 @@
 
 <div class="row">
     <div class="col s12 m12">
-
         <div class="card-panel">
             <div class="row">
 
                 @foreach ($categories as $category)
-                    <div class="col s12 m3">
 
+                    <div class="col s12 m3">
                         <div class="card small p-small">
 
                             <a href="{{ route('categories.show', $category->id) }}">
@@ -30,6 +29,7 @@
                                 @include('layouts.partials._delete_form', ['route' => ['categories.destroy', $category->id]])
 
                             </ul>
+
                             <div class="card-content">
 
                                 @if (strlen($category->description) >= 100)
@@ -38,20 +38,17 @@
                                     <p>{{ $category->description }}
                                 @endif
 
-
                             </div>
-
-
                         </div>
 
                         @include('admin.categories.partials._edit_modal')
 
                     </div>
+
                 @endforeach
 
             </div>
         </div>
-
     </div>
 </div>
 
