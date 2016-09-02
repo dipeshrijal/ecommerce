@@ -18,9 +18,9 @@
         </script>
 
         <style>
-            @import 'https://fonts.googleapis.com/css?family=Lato:400,400i,700';
+            @import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700';
             html, body {
-                font-family: 'Lato', sans-serif;
+                font-family: 'Open Sans', sans-serif;
             }
         </style>
     </head>
@@ -105,6 +105,8 @@
                     $('.modal-trigger').leanModal({
                         dismissible: false
                     });
+
+                    $('.tooltipped').tooltip({delay: 50});
                 });
 
                 $('.datepicker').pickadate({

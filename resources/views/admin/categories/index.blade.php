@@ -9,36 +9,48 @@
 
                 @foreach ($categories as $category)
 
-                    <div class="col s12 m3">
-                        <div class="card small p-small">
+                    <div class="col s12 m6 l3">
 
-                            <a href="{{ route('categories.show', $category->id) }}">
-                                <div class="card-header white-text cyan darken-2">
-                                    <span class="card-title">{{ str_limit(strtoupper($category->name), 16) }} </span>
+                        <div class="row">
+
+                            <div class="card small p-small">
+
+                                <a href="{{ route('categories.show', $category->id) }}">
+                                    <div class="card-header cyan darken-2 white-text">
+                                        {{ $category->name }}
+                                    </div>
+                                </a>
+
+                                <div class="fixed-action-btn horizontal" style="position:absolute; bottom: 112px; right: 15px;">
+
+                                    <a class="btn-floating cyan accent-4">
+                                        <i class="large material-icons">more_vert</i>
+                                    </a>
+
+                                    <ul style="width:100px;">
+
+                                        <a class="btn-floating green accent-4 modal-trigger tooltipped" data-position="bottom" data-delay="50" data-tooltip="Edit" href="#edit-category{{ $category->id }}">
+                                            <i class="material-icons">edit</i>
+                                        </a>
+
+                                        <a class="btn-floating red accent-2 delete-link tooltipped" data-position="bottom" data-delay="50" data-tooltip="Archive">
+                                            <i class="material-icons">archive</i>
+                                        </a>
+
+                                        @include('layouts.partials._delete_form', ['route' => ['categories.destroy', $category->id]])
+
+                                    </ul>
+
                                 </div>
-                            </a>
 
-                            <ul class="right-align" style="margin:-20px 5px 0px 0px">
-                                <a class="btn-floating green accent-4 modal-trigger" href="#edit-category{{ $category->id }}">
-                                    <i class="material-icons">edit</i>
-                                </a>
-                                <a class="btn-floating red accent-2 delete-link">
-                                    <i class="material-icons">archive</i>
-                                </a>
-
-                                @include('layouts.partials._delete_form', ['route' => ['categories.destroy', $category->id]])
-
-                            </ul>
-
-                            <div class="card-content">
-
-                                @if (strlen($category->description) >= 100)
-                                    <p>{{ str_limit($category->description, 100) }} <a href="{{ route('categories.show', $category->id) }}">more</a> </p>
-                                @else
-                                    <p>{{ $category->description }}
-                                @endif
+                                <div class="card-content" style="overflow:hidden; max-height:110px;min-height:110px;">
+                                    <p>
+                                        {{ $category->description }}
+                                    </p>
+                                </div>
 
                             </div>
+
                         </div>
 
                         @include('admin.categories.partials._edit_modal')
@@ -48,6 +60,9 @@
                 @endforeach
 
             </div>
+
+            <ul class="pagination">{{ $categories->links() }}</ul>
+
         </div>
     </div>
 </div>
@@ -81,3 +96,6 @@
     </script>
 
 @stop
+
+
+

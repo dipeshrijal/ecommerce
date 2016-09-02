@@ -40,7 +40,7 @@ class CategoriesController extends AdminController
     public function index()
     {
         $this->repository->pushCriteria(app('Prettus\Repository\Criteria\RequestCriteria'));
-        $categories = $this->repository->all();
+        $categories = $this->repository->paginate(8);
 
         if (request()->wantsJson()) {
 
