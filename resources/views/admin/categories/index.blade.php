@@ -61,7 +61,9 @@
 
             </div>
 
-            <ul class="pagination">{{ $categories->links() }}</ul>
+            <div class="center-align">
+                {{ $categories->links() }}
+            </div>
 
         </div>
     </div>
