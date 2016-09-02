@@ -1,4 +1,4 @@
-<ul class="side-nav" id="slide-out">
+<ul class="side-nav teal darken-1" id="slide-out">
     <li>
         <div class="userView">
             <img class="background" src="http://placehold.it/300x200"/>

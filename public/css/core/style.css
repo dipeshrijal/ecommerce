@@ -27,6 +27,15 @@ html, body {
     justify-content: center;
 }
 
+.card-header-medium {
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+    box-sizing: inherit;
+}
+
 .card-footer {
     padding: 20px;
     overflow: hidden;
@@ -40,6 +49,15 @@ html, body {
 
 .valign {
     vertical-align:middle;
+}
+
+.side-nav a {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.side-nav li > a > i.material-icons {
+    color: #fff;
 }
 
 

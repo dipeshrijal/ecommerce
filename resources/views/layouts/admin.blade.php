@@ -28,7 +28,7 @@
     <body>
         <div class="navbar-fixed">
 
-            <nav class="indigo lighten-1 white-text">
+            <nav class="cyan darken-3 white-text">
                 <ul class="dropdown-content" id="dropdown1">
                     <li>
                         <a href="{{ url('/logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">

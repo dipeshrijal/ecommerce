@@ -6,12 +6,12 @@
         <div class="col s12 m12">
 
             <div class="card-panel">
-                <div class="card-header cyan darken-2 white-text">
+                <div class="card-header-medium cyan darken-2 white-text">
                     <div class="row">
 
                         <div class="col s6">
                             <h5>
-                                <i class="material-icons valign-center">
+                                <i class="material-icons valign">
                                     assignment
                                 </i>
                                 {{ $category->name }}
@@ -20,7 +20,7 @@
 
                         <div class="col s6">
                             <a href="{{ route('categories.index') }}" class="btn-floating cyan darken-3 btn-flat right">
-                                <i class="white-text medium material-icons valign-center">
+                                <i class="white-text medium material-icons">
                                     keyboard_backspace
                                 </i>
                             </a>
@@ -31,14 +31,14 @@
                     <div class="row">
 
                         <div class="col s12">
-                            <i class="material-icons valign-center">date_range</i>
+                            <i class="material-icons valign">today</i>
                             {{ $category->created_at->format('jS F, Y') }}
                         </div>
 
                     </div>
                 </div>
 
-                <ul class="right-align" style="margin:-20px 5px 0px 0px">
+                <ul class="center-align" style="margin:-20px 5px 0px 0px">
 
                     <a class="btn-floating green accent-4 modal-trigger hoverable" href="#edit-category{{ $category->id }}">
                         <i class="material-icons">edit</i>
